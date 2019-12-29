@@ -42,12 +42,21 @@ git reset --mixed HEAD~2
 ```
 
 ## Git 中设置代理
+
+### 设置 http 代理
 ```sh
 git config --global https.proxy http://127.0.0.1:1080
 git config --global https.proxy https://127.0.0.1:1080
 
 git config --global --unset http.proxy
 git config --global --unset https.proxy
+```
+
+### 设置 socks5 代理
+
+```sh
+git config --global http.proxy 'socks5://127.0.0.1:1080'
+git config --global https.proxy 'socks5://127.0.0.1:1080'
 ```
 
 ## Git 推本地 master 到远端非 master 分支
@@ -110,3 +119,23 @@ git config --global core.autocrlf false
 ```sh
 git clone --depth=1 Git_URL
 ```
+
+## Enter passphrase for key problem
+
+git 配置完 SSH 以后，push 或者 pull 的时候每次都提示 Enter passphrase for key '/Users/m/.ssh/id_rsa': ，可以这样解决:
+
+1. 终端输入
+```
+eval `ssh-agent`
+ssh-add
+```
+但是关闭终端窗口，或者重新就必须重新输入，治标不治本。
+
+2. 终端输入
+```
+ssh-add -k /Users/m/.ssh/id_rsa
+ssh-add -K privateKey 中privateKey 为/Users/m/.ssh/id_rsa
+```
+
+
+
