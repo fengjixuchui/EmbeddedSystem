@@ -54,6 +54,28 @@ export ftp_proxy=http://127.0.0.1:1080
 source /etc/profile 
 `
 
+### 在 Linux 上使用本地局域网中的代理服务上网
+
+在 linux 下配置代理上网操作比较复杂，非常麻烦，而且有些最新的加密算法还不支持。而在 win 下，有很多好用的代理软件，
+支持负载均衡等常用功能，配置起来也十分方便，因此我们可以换一种方式来解决 linux 机器上网的问题。
+
+即在 linux 中通过 win 下的正向代理 socket 服务上网。
+
+可以使用如下语句配置：
+
+```
+export https_proxy=http://xxx.xxx.xxx.xxx:port
+```
+
+通过上述语句，可以使本地的 https 连接通过局域网的 `http://xxx.xxx.xxx.xxx:port` 端口提供的代理服务来访问互联网，
+但是这样设置是一次性的，因此可以将其添加到启动初始化文件中：
+
+```
+vi ~/.bashrc
+```
+
+在最后添加上述配置语句，即可每次开机自动使用本地局域网代理。
+
 ### Package libffi was not found in the pkg-config search path
 
 site:
@@ -70,4 +92,25 @@ sudo apt-get install libffi-dev
 ```
 sudo apt-get install gcc-multilib
 ```
+
+### 定时任务管理器 crontab 常用操作
+
+- 查看当前系统任务
+```
+crontab -l
+```
+
+- 指定文件为当前系统任务列表
+```
+crontab file
+```
+
+注意事项：
+
+1. 使用 sh 脚本作为系统任务，便于收集日志，统计运行时间
+2. 如果需要设置一次性的环境变量，那么需要在 sh 脚本中重新设置，否则系统启动的临时环境变量可能不生效
+
+
+
+
 
