@@ -1,5 +1,7 @@
 # Computer Vision
 
+## Course
+
 - [week1 CV Basic Ⅰ](week1)
 
     - crop, color shift, gamma, rotation, affine transform, perspective transform
@@ -10,10 +12,31 @@
     - Feature Descriptors: [Compulsory] - [Hog](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf ) 
     - [SURF](https://www.vision.ee.ethz.ch/~surf/eccv06.pdf )
     - [optional] - [BRISK](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.371.1343&rep=rep1&type=pdf)
-    - [Orb](http://www.willowgarage.com/sites/default/files/orb_final.pdf):  [Compulsory for SLAM Guys]
+    - [Orb](http://www.willowgarage.com/sites/default/files/orb_final.pdf): [SLAM]
     - K-Means
 
 - [week3 Classic Machine Learning Ⅰ](week3)
     - Linear regression
-    - Logistic regression
+    - Logistic Regression / Classification
+    - L2 Loss
+    - Sigmoid Function
+    - Cross Entropy / Multi-Label
 
+- [week4 Classic Machine Learning Ⅱ](week4)
+    - Neural Network
+    - BP / Cost Function / Hypothesis
+    - L1 / L2 Regularization
+    - Overfit / Zigzag
+
+- [week5 Classic Machine Learning Ⅲ](week5)
+    - Gradient Vanishing / Explosion
+    - SVM / Kernel / Derivation
+    - Normal Equation
+
+## Project
+
+- [project1 Object Detection](prj_object_detection)
+    - SIFT, SURF
+    - FLANN
+    - KNN
+    - RANSAC
