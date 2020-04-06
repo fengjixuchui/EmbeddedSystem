@@ -32,10 +32,22 @@
     - Gradient Vanishing / Explosion
     - SVM / Kernel / Derivation
     - Normal Equation
+ 
+- [week6 CNN Ⅰ](week6)
+    - Conv: Conv, Dilated Conv, Transposed Conv, C3d(Deformable Conv)
+    - ReLU: ReLU, Leaky-ReLU, PReLU, ELU(SeLU)
+    - Pooling: Max Pooling, Axe Pooling
+    - FC
+    - Dropout
+    - Batch Normalization(Group/Layer/Instance Norm)
+
+- [week7 CNN Ⅱ](week7)
+    - Net Framework
+    - FLOPs
 
 ## Project
 
-- [project1 Object Detection](prj_object_detection)
+- [project1 Object Detection](project_one_object_detection)
     - SIFT, SURF
     - FLANN
     - KNN
