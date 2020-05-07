@@ -31,6 +31,7 @@
 | 向下拷贝当前行| CTRL + ALT + DOWN  | 
 | 移动到当前行首以及行末尾| HOME/END | 
 | 选中当前行或者多行| SHIFT + END/UP/DOWN  | 
+| 选中当前的单词/行| 鼠标点击两次/三次 | 
 | 选中当前行光标前半段和后半段| SHIFT + CTRL + LEFT/RIGHT  | 
 | 替换| CTRL + R | 
 | 全局替换| CTRL + SHIFT + R  | 
@@ -44,6 +45,10 @@
 
 - 非常好用的本地 MarkDown 编辑器：[Typora](https://www.typora.io/)，支持 md 格式向各种格式的轻松转换
 - 云端 MarkDown 编辑器：[Cmd MarkDown](https://www.zybuluo.com/mdeditor)，云端保存和搜索功能十分强大
+
+## 代码统计工具
+
+- 代码统计工具，支持多平台使用、多语言识别，能够计算指定目标文件或文件夹中的文件数（files）、空白行数（blank）、注释行数（comment）和代码行数（code）：[cloc](https://github.com/AlDanial/cloc)
 
 ## 代码格式化工具
 
