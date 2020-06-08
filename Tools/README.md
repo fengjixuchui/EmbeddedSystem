@@ -18,6 +18,10 @@
 
 - 终端软件：[Xshell](http://www.netsarang.com/products/xsh_overview.html) 一个强大的安全终端模拟软件
 
+## Python Library
+
+- [JSON Schema](https://json-schema.org/understanding-json-schema/) and [JSON Schema generator](https://pypi.org/project/genson)
+
 ## 编辑器
 
 ### Pycharm
@@ -53,6 +57,13 @@
 ## 代码格式化工具
 
 - 代码格式化小工具：Astyle，可以将[ Astyle 集成到 Keil 中进行代码格式化](https://jingyan.baidu.com/article/f3e34a12d7d6e5f5eb6535c5.html)，非常方便
+
+## CI/CD
+
+- [TravisCI](https://travis-ci.com/)
+- [CircleCI](https://circleci.com/)
+- [Jenkins](https://www.jenkins.io/)
+- [Drone](https://drone.io/)
 
 ## 录屏软件
 
