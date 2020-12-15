@@ -1,6 +1,6 @@
 # Reference
 
-##Code Coverage for Embedded Systems
+## Code Coverage for Embedded Systems
 
 - [Code Coverage for Embedded Target with Eclipse, gcc and gcov](https://mcuoneclipse.com/2014/12/26/code-coverage-for-embedded-target-with-eclipse-gcc-and-gcov/)
 
@@ -18,11 +18,27 @@
 
 - [Unit Tests, How to Write Testable Code and Why it Matters](https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters)
 
-## GIT
+## Git
 
 - [Configuring Git to handle line endings](https://help.github.com/en/github/using-git/configuring-git-to-handle-line-endings)
 
 - [mind-the-end-of-your-line](https://adaptivepatchwork.com/2012/03/01/mind-the-end-of-your-line/)
 
+## Computer Science
 
+- [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2)
+
+- [Big-O Cheatsheet](https://www.bigocheatsheet.com/)
+
+- [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
+
+- [Intermediate representation](https://en.wikipedia.org/wiki/Intermediate_representation)
+
+- [Just-in-time compilation](https://en.wikipedia.org/wiki/Just-in-time_compilation)
+
+## NEON
+
+- [Arm NEON General](https://zhuanlan.zhihu.com/p/128640600)
+- [NEON Intrinsics tool chain](https://blog.csdn.net/Yemiekai/article/details/107935889)
+- [C to NEON](https://www.jianshu.com/p/70601b36540f)
 
