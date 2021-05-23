@@ -13,6 +13,7 @@
 
 - [Git 工具常用操作及技巧](../Gist/Git.md)
 - 和 Git 配合使用的对比工具：[Beyond Compare](https://www.scootersoftware.com/download.php)，界面简洁，功能强大
+- Linux 下好用的 GUI Git 工具 [GitKraken](https://www.gitkraken.com/) 
 
 ## 终端 shell
 
@@ -29,21 +30,21 @@
 优秀的纯文本编辑器（当然也包括代码）非常重要，现在我使用 Pycharm 作为主力编辑器，下面列一下常用的编辑器快捷键:
 
 | 功能 | 快捷键 |
-| ------ | ------ | 
-| 删除当前行 | CTRL + D | 
-| 上下移动当前行| ALT + UP/DOWN | 
-| 向下拷贝当前行| CTRL + ALT + DOWN  | 
-| 移动到当前行首以及行末尾| HOME/END | 
-| 选中当前行或者多行| SHIFT + END/UP/DOWN  | 
-| 选中当前的单词/行| 鼠标点击两次/三次 | 
-| 选中当前行光标前半段和后半段| SHIFT + CTRL + LEFT/RIGHT  | 
-| 替换| CTRL + R | 
-| 全局替换| CTRL + SHIFT + R  | 
-| 全局查找| CTRL + SHIFT + F | 
-| 代码格式化| CTRL + ALT + L  | 
-| git commit| CTRL + K  | 
-| git commit + push| CTRL + ALT + K  | 
-| git push| SHIFT + CTRL + K  | 
+| ------ | ------ |
+| 删除当前行 | CTRL + D |
+| 上下移动当前行| ALT + UP/DOWN |
+| 向下拷贝当前行| CTRL + ALT + DOWN  |
+| 移动到当前行首以及行末尾| HOME/END |
+| 选中当前行或者多行| SHIFT + END/UP/DOWN  |
+| 选中当前的单词/行| 鼠标点击两次/三次 |
+| 选中当前行光标前半段和后半段| SHIFT + CTRL + LEFT/RIGHT  |
+| 替换| CTRL + R |
+| 全局替换| CTRL + SHIFT + R  |
+| 全局查找| CTRL + SHIFT + F |
+| 代码格式化| CTRL + ALT + L  |
+| git commit| CTRL + K  |
+| git commit + push| CTRL + ALT + K  |
+| git push| SHIFT + CTRL + K  |
 
 ### MarkDown
 
@@ -90,3 +91,18 @@
 ## linux 下简洁的串口工具
 
 - apt install cutecom
+
+## 可能用到的自动化绘图工具
+
+- [Graphviz](https://graphviz.org/)
+
+Graphviz (short for Graph Visualization Software) is a package of open-source tools initiated by AT&T Labs Research for drawing graphs specified in DOT language scripts having the file name extension "gv". It also provides libraries for software applications to use the tools. 
+
+- DOT (graph description language)
+
+## 数学表达式 LaTeX 渲染工具
+
+- Typora 中可以选择数学公式 inline 的渲染方式
+- VScode 中可以安装 [Markdown+Math](https://marketplace.visualstudio.com/items?itemName=goessner.mdmath) 来支持 LaTeX 的渲染
+- 在 Google 浏览器上可以使用插件 [TeX All the Thing](https://chrome.google.com/webstore/detail/tex-all-the-things/cbimabofgmfdkicghcadidpemeenbffn?hl=en-US) 来支持网页的 LaTeX 渲染和公式的拷贝
+- [LaTeX 公式编辑器](https://www.latexlive.com/##)可以处理一些公式的编辑以及图片转换等功能
